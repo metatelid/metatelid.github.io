@@ -50,12 +50,18 @@ nav{
 .nav-item{
     margin-left: 2vw;
     margin-right: 2vw;
+    @media screen and (min-width: 391px) and (max-width: 530px) {
+        background-color: #cd33332e;
+    }
 }
 
 .navbar-light .navbar-nav .nav-link.active{
     color: $linkColor;
     border-top: 2px solid;
     border-bottom: 2px solid;
+    @media screen and (min-width: 391px) and (max-width: 530px) {
+        color: #000;
+    }
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -67,6 +73,9 @@ nav{
     color: $linkColor;
     border-top: 2px solid #b8333300;
     border-bottom: 2px solid #b8333300;
+    @media screen and (min-width: 391px) and (max-width: 530px) {
+        color: #000;
+    }
 }
 
 #brand{
